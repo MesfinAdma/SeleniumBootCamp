@@ -7,7 +7,7 @@
   <parameter name= "email" value="mesfinkassa@yahoo.com"/>
   <parameter name= "password" value="mka1234567890"/>
   <parameter name= "ZipCode" value="22206"/>
-  <parameter name= "phone" value="9116001333"/>
+  <parameter name= "Phonenumber" value="9116001333"/>
   
     <classes>
       <class name="homeDepotProject_1.homeDepot_Test"/>

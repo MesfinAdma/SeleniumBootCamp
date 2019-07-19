@@ -2,16 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24285" started-at="2019-07-19T21:05:54Z" finished-at="2019-07-19T21:06:18Z">
+  <suite name="Suite" duration-ms="21347" started-at="2019-07-19T23:28:45Z" finished-at="2019-07-19T23:29:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24285" started-at="2019-07-19T21:05:54Z" finished-at="2019-07-19T21:06:18Z">
+    <test name="homeDepotProject_1.homeDepot_Test.java" duration-ms="21347" started-at="2019-07-19T23:28:45Z" finished-at="2019-07-19T23:29:06Z">
       <class name="homeDepotProject_1.homeDepot_Test">
-        <test-method status="PASS" signature="RunhomeDepot()[pri:0, instance:homeDepotProject_1.homeDepot_Test@7823a2f9]" name="RunhomeDepot" duration-ms="24269" started-at="2019-07-19T21:05:54Z" finished-at="2019-07-19T21:06:18Z">
+        <test-method status="PASS" signature="RunhomeDepot(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homeDepotProject_1.homeDepot_Test@39aeed2f]" name="RunhomeDepot" duration-ms="21285" started-at="2019-07-19T23:28:45Z" finished-at="2019-07-19T23:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mesfinkassa@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mka1234567890]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22206]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9116001333]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunhomeDepot -->
       </class> <!-- homeDepotProject_1.homeDepot_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- homeDepotProject_1.homeDepot_Test.java -->
+  </suite> <!-- Suite -->
 </testng-results>
