@@ -10,7 +10,7 @@
   <parameter name= "phone" value="9116001333"/>
   
     <classes>
-      <class name="homeDepotProject_1\homeDepot_Test"/>
+      <class name="homeDepotProject_1.homeDepot_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
