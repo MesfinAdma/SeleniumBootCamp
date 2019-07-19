@@ -13,17 +13,13 @@ public class homeDepot_Test {
 	
 	 @Parameters({"Browser", "URL", "email", "password", "ZipCode", "Phonenumber"})
 	@Test
-	
-  public void RunhomeDepot(String br, String url, String em, String pw, String zip, String phone) {
+	public void RunhomeDepot(String br, String url, String em, String pw, String zip, String phone) {
 
 	 driver = OpenBrowser.openbrowser(br, url);
 	 
-		  homeDepotPOM obj = PageFactory.initElements(driver, homeDepotPOM.class);
-		//obj.createAcc(inputEmail, inputpassword, ZipCode, inputphoneNumber);
-		  
+		  homeDepotPOM obj = PageFactory.initElements(driver, homeDepotPOM.class);	  
 		  obj.createAcc(em, pw, zip, phone);
-		  
-		  
+		   
 		  
 	  }
 	  
