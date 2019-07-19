@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="expediaProject2.TestExpedia.JAVA">
+  <test thread-count="5" name="homeDepotProject_1.homeDepot_Test.java">
+  <parameter name = "Browser", value="Chrome"/>
+  <parameter name= "URL", value="https://www.homedepot.com/"/>
+  <parameter name= "email", value="mesfinkassa@yahoo.com"/>
+  <parameter name= "password", value="mka1234567890"/>
+  <parameter name= "ZipCode", value="22206"/>
+  <parameter name= "phone", value="9116001333"/>
   
     <classes>
-      <class name="expediaProject2.TestExpedia"/>
+      <class name="homeDepotProject_1.homeDepot_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
