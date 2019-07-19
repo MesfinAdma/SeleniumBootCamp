@@ -2,6 +2,7 @@ package expediaProject2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import expediaProject2.openBrowserExpedia;
 public class TestExpedia {
@@ -27,5 +28,11 @@ public class TestExpedia {
 			 obj2.billingInfo("543 Rockville ave",  "Alexandria", "VA", "22212", "mesfin@gmail.com", "mesfin123", "mesfin123");
 			  
 }
+	  
+	  @AfterTest
+	  public void closeBrowser() {
+		  
+		  driver.quit();
+	  }
 	  
 }
